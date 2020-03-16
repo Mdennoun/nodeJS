@@ -1,5 +1,5 @@
 {
-  "name": "nodjschatbox",
+  "name": "nodeJS",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mdennoun/NodJsChatbox.git"
+    "url": "git+https://github.com/Mdennoun/nodeJS.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mdennoun/NodJsChatbox/issues"
+    "url": "https://github.com/Mdennoun/nodeJS/issues"
   },
-  "homepage": "https://github.com/Mdennoun/NodJsChatbox#readme"
+  "homepage": "https://github.com/Mdennoun/nodeJS#readme"
 }
