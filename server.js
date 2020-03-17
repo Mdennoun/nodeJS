@@ -15,12 +15,12 @@ app.get('/', function (req, res) {
 app.get('/hello', function(req, res) {
 
   
-  var nom = req.query.nom
-  if(!req.query.nom){
-    res.send("Quel est votre nom ?")
+  var country = req.query. country
+  if(!country){
+    res.send("Which country?")
 
   } else {
-    res.send("Bonjour " + nom )
+    res.send("Hello, " + country + "!" )
   }
 
 })
@@ -48,7 +48,7 @@ app.post('/chat', function (req, res) {
 
 		// Write in file
 		var data = JSON.stringify(object)
-		fs.writeFileSync('reponses.json', data)
+		fs.writeFileSync('recponses.json', data)
 
 		res.send('Merci pour cette information !')
 	}
